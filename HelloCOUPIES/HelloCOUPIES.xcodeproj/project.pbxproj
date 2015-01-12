@@ -10,7 +10,6 @@
 		1D3623260D0F684500981E51 /* HelloCOUPIESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HelloCOUPIESAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
-		482678050021914001C904DB /* libPods-HelloCOUPIES.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962F52D4DDFAC5E83FCDEB33 /* libPods-HelloCOUPIES.a */; };
 		AB237486127A9F9600C0AE0F /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AB23747B127A9F9600C0AE0F /* SDImageCache.m */; };
 		AB237487127A9F9600C0AE0F /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = AB23747D127A9F9600C0AE0F /* SDWebImageDownloader.m */; };
 		AB237488127A9F9600C0AE0F /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB237480127A9F9600C0AE0F /* SDWebImageManager.m */; };
@@ -31,23 +30,20 @@
 		DC2725EE1746865900978A4F /* HtmlListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2725ED1746865900978A4F /* HtmlListView.xib */; };
 		DCB5332A17EC429E004FFB1F /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB5332917EC429E004FFB1F /* ProfileView.xib */; };
 		DCB5332D17EC42D6004FFB1F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5332C17EC42D6004FFB1F /* ProfileViewController.m */; };
+		DCCA7A681A6421C10024E42F /* COUPIES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCA7A671A6421C10024E42F /* COUPIES.framework */; };
+		DCCA7A6A1A6421E30024E42F /* COUPIES.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCCA7A691A6421E30024E42F /* COUPIES.bundle */; };
+		DCCA7A891A6421FD0024E42F /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCA7A831A6421FD0024E42F /* libzbar.a */; };
 		DCD9E93C151C94EC009956F8 /* UIImage+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD9E93B151C94EC009956F8 /* UIImage+NSCoding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* HelloCOUPIESAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCOUPIESAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* HelloCOUPIESAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloCOUPIESAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* HelloCOUPIES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCOUPIES.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AB4B0D9B1048005BE974 /* HelloCOUPIES_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCOUPIES_Prefix.pch; sourceTree = "<group>"; };
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		72525FD71C5CD2507232B237 /* Pods-HelloCOUPIES.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCOUPIES.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCOUPIES/Pods-HelloCOUPIES.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloCOUPIES-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloCOUPIES-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		962F52D4DDFAC5E83FCDEB33 /* libPods-HelloCOUPIES.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloCOUPIES.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EBBE33431D77B75607289F1 /* Pods-HelloCOUPIES.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCOUPIES.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCOUPIES/Pods-HelloCOUPIES.release.xcconfig"; sourceTree = "<group>"; };
 		AB23747A127A9F9600C0AE0F /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
 		AB23747B127A9F9600C0AE0F /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
 		AB23747C127A9F9600C0AE0F /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
@@ -72,30 +68,42 @@
 		AB237567127AF0E400C0AE0F /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
 		AB23757D127AFB1F00C0AE0F /* LocationAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnnotationView.h; sourceTree = "<group>"; };
 		AB23757E127AFB1F00C0AE0F /* LocationAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAnnotationView.m; sourceTree = "<group>"; };
-		AB237596127B0EAA00C0AE0F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AB2AA2EE1279B64400AA7648 /* NativeListTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeListTableView.xib; sourceTree = "<group>"; };
 		AB2AA2F11279B69300AA7648 /* NativeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeListTableViewController.h; sourceTree = "<group>"; };
 		AB2AA2F21279B69300AA7648 /* NativeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeListTableViewController.m; sourceTree = "<group>"; };
 		AB2AA2F41279B72D00AA7648 /* COUPIES.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = COUPIES.plist; sourceTree = "<group>"; };
-		AB2AA4221279D39E00AA7648 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		DC2725EA174685CF00978A4F /* HtmlListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlListViewController.h; sourceTree = "<group>"; };
 		DC2725EB174685CF00978A4F /* HtmlListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlListViewController.m; sourceTree = "<group>"; };
 		DC2725ED1746865900978A4F /* HtmlListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HtmlListView.xib; sourceTree = "<group>"; };
-		DC3359A81A5E74EA0084ECE6 /* COUPIES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = COUPIES.framework; path = ../COUPIES.framework; sourceTree = "<group>"; };
 		DCB5332917EC429E004FFB1F /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
 		DCB5332B17EC42D6004FFB1F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		DCB5332C17EC42D6004FFB1F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		DCD9E927151C92BA009956F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		DCD9E928151C92BA009956F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		DCD9E92E151C9323009956F8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		DCD9E92F151C9323009956F8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		DCD9E930151C9323009956F8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		DCD9E934151C9340009956F8 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
-		DCD9E936151C9379009956F8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		DCD9E938151C9390009956F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DCCA7A651A64210D0024E42F /* COUPIES.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = COUPIES.xcconfig; path = ../COUPIES.xcconfig; sourceTree = "<group>"; };
+		DCCA7A671A6421C10024E42F /* COUPIES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = COUPIES.framework; path = ../COUPIES.framework; sourceTree = "<group>"; };
+		DCCA7A691A6421E30024E42F /* COUPIES.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = COUPIES.bundle; path = ../COUPIES.framework/Versions/A/Resources/COUPIES.bundle; sourceTree = "<group>"; };
+		DCCA7A6F1A6421FD0024E42F /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		DCCA7A701A6421FD0024E42F /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		DCCA7A711A6421FD0024E42F /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		DCCA7A721A6421FD0024E42F /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		DCCA7A731A6421FD0024E42F /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		DCCA7A741A6421FD0024E42F /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		DCCA7A751A6421FD0024E42F /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		DCCA7A761A6421FD0024E42F /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		DCCA7A771A6421FD0024E42F /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		DCCA7A781A6421FD0024E42F /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		DCCA7A791A6421FD0024E42F /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		DCCA7A7A1A6421FD0024E42F /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		DCCA7A7B1A6421FD0024E42F /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		DCCA7A7C1A6421FD0024E42F /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		DCCA7A7D1A6421FD0024E42F /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		DCCA7A7E1A6421FD0024E42F /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		DCCA7A7F1A6421FD0024E42F /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		DCCA7A801A6421FD0024E42F /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		DCCA7A811A6421FD0024E42F /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		DCCA7A821A6421FD0024E42F /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		DCCA7A831A6421FD0024E42F /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
 		DCD9E93A151C94EC009956F8 /* UIImage+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NSCoding.h"; sourceTree = "<group>"; };
 		DCD9E93B151C94EC009956F8 /* UIImage+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NSCoding.m"; sourceTree = "<group>"; };
-		DCF1DFC917E6F8DC005C0E1B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				482678050021914001C904DB /* libPods-HelloCOUPIES.a in Frameworks */,
+				DCCA7A891A6421FD0024E42F /* libzbar.a in Frameworks */,
+				DCCA7A681A6421C10024E42F /* COUPIES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,15 +148,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27C3BBD44D9E36E89F2A7CF7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				72525FD71C5CD2507232B237 /* Pods-HelloCOUPIES.debug.xcconfig */,
-				9EBBE33431D77B75607289F1 /* Pods-HelloCOUPIES.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		29B97314FDCFA39411CA2CEA /* HelloCOUPIES */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +156,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				27C3BBD44D9E36E89F2A7CF7 /* Pods */,
 			);
 			name = HelloCOUPIES;
 			sourceTree = "<group>";
@@ -173,6 +172,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DCCA7A691A6421E30024E42F /* COUPIES.bundle */,
+				DCCA7A651A64210D0024E42F /* COUPIES.xcconfig */,
 				8D1107310486CEB800E47090 /* HelloCOUPIES-Info.plist */,
 				AB2AA2F41279B72D00AA7648 /* COUPIES.plist */,
 				AB2374CA127AA5E500C0AE0F /* gray_disclosure_indicator.png */,
@@ -190,22 +191,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DC3359A81A5E74EA0084ECE6 /* COUPIES.framework */,
-				DCF1DFC917E6F8DC005C0E1B /* AdSupport.framework */,
-				DCD9E934151C9340009956F8 /* libiconv.dylib */,
-				DCD9E938151C9390009956F8 /* QuartzCore.framework */,
-				DCD9E936151C9379009956F8 /* CoreText.framework */,
-				DCD9E92E151C9323009956F8 /* CoreAudio.framework */,
-				DCD9E92F151C9323009956F8 /* CoreMedia.framework */,
-				DCD9E930151C9323009956F8 /* CoreVideo.framework */,
-				DCD9E927151C92BA009956F8 /* AudioToolbox.framework */,
-				DCD9E928151C92BA009956F8 /* AVFoundation.framework */,
-				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
-				1D30AB110D05D00D00671497 /* Foundation.framework */,
-				288765070DF74369002DB57D /* CoreGraphics.framework */,
-				AB2AA4221279D39E00AA7648 /* CoreLocation.framework */,
-				AB237596127B0EAA00C0AE0F /* MapKit.framework */,
-				962F52D4DDFAC5E83FCDEB33 /* libPods-HelloCOUPIES.a */,
+				DCCA7A6B1A6421FD0024E42F /* ZBarSDK */,
+				DCCA7A671A6421C10024E42F /* COUPIES.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -242,6 +229,59 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		DCCA7A6B1A6421FD0024E42F /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA7A6C1A6421FD0024E42F /* Headers */,
+				DCCA7A831A6421FD0024E42F /* libzbar.a */,
+			);
+			name = ZBarSDK;
+			path = ../ZBarSDK;
+			sourceTree = "<group>";
+		};
+		DCCA7A6C1A6421FD0024E42F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA7A6D1A6421FD0024E42F /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		DCCA7A6D1A6421FD0024E42F /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA7A6E1A6421FD0024E42F /* zbar */,
+				DCCA7A781A6421FD0024E42F /* zbar.h */,
+				DCCA7A791A6421FD0024E42F /* ZBarCameraSimulator.h */,
+				DCCA7A7A1A6421FD0024E42F /* ZBarCaptureReader.h */,
+				DCCA7A7B1A6421FD0024E42F /* ZBarHelpController.h */,
+				DCCA7A7C1A6421FD0024E42F /* ZBarImage.h */,
+				DCCA7A7D1A6421FD0024E42F /* ZBarImageScanner.h */,
+				DCCA7A7E1A6421FD0024E42F /* ZBarReaderController.h */,
+				DCCA7A7F1A6421FD0024E42F /* ZBarReaderView.h */,
+				DCCA7A801A6421FD0024E42F /* ZBarReaderViewController.h */,
+				DCCA7A811A6421FD0024E42F /* ZBarSDK.h */,
+				DCCA7A821A6421FD0024E42F /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		DCCA7A6E1A6421FD0024E42F /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA7A6F1A6421FD0024E42F /* Decoder.h */,
+				DCCA7A701A6421FD0024E42F /* Exception.h */,
+				DCCA7A711A6421FD0024E42F /* Image.h */,
+				DCCA7A721A6421FD0024E42F /* ImageScanner.h */,
+				DCCA7A731A6421FD0024E42F /* Processor.h */,
+				DCCA7A741A6421FD0024E42F /* Scanner.h */,
+				DCCA7A751A6421FD0024E42F /* Symbol.h */,
+				DCCA7A761A6421FD0024E42F /* Video.h */,
+				DCCA7A771A6421FD0024E42F /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,11 +289,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloCOUPIES" */;
 			buildPhases = (
-				64A0BA3A475A2D4EFC476893 /* Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				9A5CA516152C3EDC66900CAC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCA7A6A1A6421E30024E42F /* COUPIES.bundle in Resources */,
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
 				AB2AA2EF1279B64400AA7648 /* NativeListTableView.xib in Resources */,
 				AB2AA2F51279B72D00AA7648 /* COUPIES.plist in Resources */,
@@ -311,39 +350,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		64A0BA3A475A2D4EFC476893 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9A5CA516152C3EDC66900CAC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCOUPIES/Pods-HelloCOUPIES-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
@@ -373,19 +379,27 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72525FD71C5CD2507232B237 /* Pods-HelloCOUPIES.debug.xcconfig */;
+			baseConfigurationReference = DCCA7A651A64210D0024E42F /* COUPIES.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/felix/Documents/workspace/COUPIES-iOs-App/Coupies-iOs-SDK/Coupies-iOs-SDK",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloCOUPIES_Prefix.pch;
 				INFOPLIST_FILE = "HelloCOUPIES-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/felix/Documents/workspace/COUPIES-iOs-App/Coupies-iOs-SDK/Coupies-iOs-SDK/ZBarSDK",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = HelloCOUPIES;
 				PROVISIONING_PROFILE = "";
@@ -397,17 +411,25 @@
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EBBE33431D77B75607289F1 /* Pods-HelloCOUPIES.release.xcconfig */;
+			baseConfigurationReference = DCCA7A651A64210D0024E42F /* COUPIES.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/felix/Documents/workspace/COUPIES-iOs-App/Coupies-iOs-SDK/Coupies-iOs-SDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloCOUPIES_Prefix.pch;
 				INFOPLIST_FILE = "HelloCOUPIES-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/felix/Documents/workspace/COUPIES-iOs-App/Coupies-iOs-SDK/Coupies-iOs-SDK/ZBarSDK",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = HelloCOUPIES;
 				SDKROOT = iphoneos;

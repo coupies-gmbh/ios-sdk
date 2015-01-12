@@ -1,2 +1,2 @@
-OTHER_LDFLAGS = $(inherited) -ObjC -all_load -framework AdSupport -framework QuartzCore -framework libiconv.dylib -framework CoreAudio -framework CoreMedia -framework CoreVideo -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework Mapkit
+OTHER_LDFLAGS = $(inherited) -ObjC -all_load /usr/lib/libiconv.dylib -framework AdSupport -framework QuartzCore -framework CoreAudio -framework CoreMedia -framework CoreVideo -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework Mapkit
 CLANG_MODULES_AUTOLINK = YES
