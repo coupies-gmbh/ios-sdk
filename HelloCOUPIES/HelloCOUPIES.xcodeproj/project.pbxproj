@@ -388,7 +388,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/felix/Documents/workspace/COUPIES-iOs-App/Coupies-iOs-SDK/Coupies-iOs-SDK",
+					"$(SRCROOT)/..",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -398,7 +398,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/felix/Documents/workspace/COUPIES-iOs-App/Coupies-iOs-SDK/Coupies-iOs-SDK/ZBarSDK",
+					"$(SRCROOT)/../ZBarSDK",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = HelloCOUPIES;
@@ -420,7 +420,7 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/felix/Documents/workspace/COUPIES-iOs-App/Coupies-iOs-SDK/Coupies-iOs-SDK",
+					"$(SRCROOT)/..",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloCOUPIES_Prefix.pch;
@@ -428,7 +428,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/felix/Documents/workspace/COUPIES-iOs-App/Coupies-iOs-SDK/Coupies-iOs-SDK/ZBarSDK",
+					"$(SRCROOT)/../ZBarSDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = HelloCOUPIES;
