@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* HelloCOUPIESAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 831}}";
+			sepNavSelRange = "{184, 22}";
+			sepNavVisRange = "{0, 622}";
+		};
+	};
+	1D3623250D0F684500981E51 /* HelloCOUPIESAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1274}}";
+			sepNavSelRange = "{812, 0}";
+			sepNavVisRange = "{0, 2355}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* HelloCOUPIES */ = {
+		activeExec = 0;
+		executables = (
+			DCED0BEE12802ADF007D6668 /* HelloCOUPIES */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DCED0BEE12802ADF007D6668 /* HelloCOUPIES */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* HelloCOUPIES */;
+		breakpoints = (
+		);
+		codeSenseManager = DCED0C0412802B0D007D6668 /* Code sense */;
+		executables = (
+			DCED0BEE12802ADF007D6668 /* HelloCOUPIES */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					693,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					863,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					511,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					765,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 314105972;
+			PBXWorkspaceStateSaveDate = 314105972;
+		};
+		perUserProjectItems = {
+			DC37398212B785CF003759C7 /* PlistBookmark */ = DC37398212B785CF003759C7 /* PlistBookmark */;
+			DC37398512B785CF003759C7 /* PBXTextBookmark */ = DC37398512B785CF003759C7 /* PBXTextBookmark */;
+			DC373A7712B80439003759C7 /* PBXTextBookmark */ = DC373A7712B80439003759C7 /* PBXTextBookmark */;
+			DC373A7812B80439003759C7 /* PBXTextBookmark */ = DC373A7812B80439003759C7 /* PBXTextBookmark */;
+			DC54B68812B8E049005641AD /* PBXTextBookmark */ = DC54B68812B8E049005641AD /* PBXTextBookmark */;
+			DC54B6A112B8E077005641AD /* PBXTextBookmark */ = DC54B6A112B8E077005641AD /* PBXTextBookmark */;
+			DC75475E12B2312700B3A2DC /* PBXTextBookmark */ = DC75475E12B2312700B3A2DC /* PBXTextBookmark */;
+			DC75475F12B2312700B3A2DC /* PlistBookmark */ = DC75475F12B2312700B3A2DC /* PlistBookmark */;
+			DCED0C7012803403007D6668 /* PBXTextBookmark */ = DCED0C7012803403007D6668 /* PBXTextBookmark */;
+			DCED0C7212803403007D6668 /* PBXTextBookmark */ = DCED0C7212803403007D6668 /* PBXTextBookmark */;
+			DCED0C7312803403007D6668 /* PBXTextBookmark */ = DCED0C7312803403007D6668 /* PBXTextBookmark */;
+			DCED0C7712803403007D6668 /* PBXTextBookmark */ = DCED0C7712803403007D6668 /* PBXTextBookmark */;
+		};
+		sourceControlManager = DCED0C0312802B0D007D6668 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	AB237496127AA27C00C0AE0F /* CouponCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1169, 2197}}";
+			sepNavSelRange = "{119, 0}";
+			sepNavVisRange = "{0, 987}";
+		};
+	};
+	AB237524127AB01900C0AE0F /* CouponViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 897}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{97, 1486}";
+		};
+	};
+	AB237565127AF0B900C0AE0F /* MapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1169, 1586}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1320, 1909}";
+		};
+	};
+	AB23757E127AFB1F00C0AE0F /* LocationAnnotationView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1169, 631}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1125}";
+		};
+	};
+	AB2AA2F11279B69300AA7648 /* CouponTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 831}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 848}";
+		};
+	};
+	AB2AA2F21279B69300AA7648 /* CouponTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 1963}}";
+			sepNavSelRange = "{123, 207}";
+			sepNavVisRange = "{0, 402}";
+		};
+	};
+	DC37398212B785CF003759C7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = AB2AA2F41279B72D00AA7648 /* COUPIES.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/felix/Documents/CoupiesFramework/HelloCOUPIES/COUPIES.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DC37398512B785CF003759C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* HelloCOUPIESAppDelegate.h */;
+		name = "HelloCOUPIESAppDelegate.h: 11";
+		rLen = 22;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	DC373A7712B80439003759C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HelloCOUPIESAppDelegate.m */;
+		name = "HelloCOUPIESAppDelegate.m: 32";
+		rLen = 0;
+		rLoc = 812;
+		rType = 0;
+		vrLen = 2355;
+		vrLoc = 0;
+	};
+	DC373A7812B80439003759C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AB2AA2F11279B69300AA7648 /* CouponTableViewController.h */;
+		name = "CouponTableViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 848;
+		vrLoc = 0;
+	};
+	DC54B68812B8E049005641AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AB2AA2F21279B69300AA7648 /* CouponTableViewController.m */;
+		name = "CouponTableViewController.m: 6";
+		rLen = 207;
+		rLoc = 123;
+		rType = 0;
+		vrLen = 427;
+		vrLoc = 0;
+	};
+	DC54B6A112B8E077005641AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AB2AA2F21279B69300AA7648 /* CouponTableViewController.m */;
+		name = "CouponTableViewController.m: 6";
+		rLen = 207;
+		rLoc = 123;
+		rType = 0;
+		vrLen = 402;
+		vrLoc = 0;
+	};
+	DC75475E12B2312700B3A2DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AB237524127AB01900C0AE0F /* CouponViewController.m */;
+		name = "CouponViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1486;
+		vrLoc = 97;
+	};
+	DC75475F12B2312700B3A2DC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* HelloCOUPIES-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/felix/Documents/CoupiesFramework/HelloCOUPIES/HelloCOUPIES-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DCED0BEE12802ADF007D6668 /* HelloCOUPIES */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HelloCOUPIES;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	DCED0C0312802B0D007D6668 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "COUPIES Framework";
+			};
+		};
+	};
+	DCED0C0412802B0D007D6668 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DCED0C7012803403007D6668 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AB237565127AF0B900C0AE0F /* MapViewController.m */;
+		name = "MapViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1980;
+		vrLoc = 1320;
+	};
+	DCED0C7212803403007D6668 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AB23757E127AFB1F00C0AE0F /* LocationAnnotationView.m */;
+		name = "LocationAnnotationView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1125;
+		vrLoc = 0;
+	};
+	DCED0C7312803403007D6668 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AB237496127AA27C00C0AE0F /* CouponCell.m */;
+		name = "CouponCell.m: 6";
+		rLen = 0;
+		rLoc = 119;
+		rType = 0;
+		vrLen = 987;
+		vrLoc = 0;
+	};
+	DCED0C7712803403007D6668 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCED0C7812803403007D6668 /* COUPIESRestService.h */;
+		name = "COUPIESRestService.h: 53";
+		rLen = 61;
+		rLoc = 1401;
+		rType = 0;
+		vrLen = 1565;
+		vrLoc = 0;
+	};
+	DCED0C7812803403007D6668 /* COUPIESRestService.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = COUPIESRestService.h;
+		path = /Users/felix/Documents/CoupiesFramework/COUPIES.framework/Versions/A/Headers/COUPIESRestService.h;
+		sourceTree = "<absolute>";
+	};
+}

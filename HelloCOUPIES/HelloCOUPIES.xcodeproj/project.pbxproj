@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* HelloCOUPIESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HelloCOUPIESAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		482678050021914001C904DB /* libPods-HelloCOUPIES.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962F52D4DDFAC5E83FCDEB33 /* libPods-HelloCOUPIES.a */; };
+		AB237486127A9F9600C0AE0F /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AB23747B127A9F9600C0AE0F /* SDImageCache.m */; };
+		AB237487127A9F9600C0AE0F /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = AB23747D127A9F9600C0AE0F /* SDWebImageDownloader.m */; };
+		AB237488127A9F9600C0AE0F /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB237480127A9F9600C0AE0F /* SDWebImageManager.m */; };
+		AB237489127A9F9600C0AE0F /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AB237483127A9F9600C0AE0F /* UIImageView+WebCache.m */; };
+		AB23748A127A9F9600C0AE0F /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AB237485127A9F9600C0AE0F /* UIButton+WebCache.m */; };
+		AB237497127AA27C00C0AE0F /* CouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB237496127AA27C00C0AE0F /* CouponCell.m */; };
+		AB2374CC127AA5E500C0AE0F /* gray_disclosure_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = AB2374CA127AA5E500C0AE0F /* gray_disclosure_indicator.png */; };
+		AB2374CD127AA5E500C0AE0F /* gray_disclosure_indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB2374CB127AA5E500C0AE0F /* gray_disclosure_indicator@2x.png */; };
+		AB237521127AAFD400C0AE0F /* CouponView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB237520127AAFD400C0AE0F /* CouponView.xib */; };
+		AB237525127AB01900C0AE0F /* CouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB237524127AB01900C0AE0F /* CouponViewController.m */; };
+		AB237566127AF0B900C0AE0F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB237565127AF0B900C0AE0F /* MapViewController.m */; };
+		AB237568127AF0E400C0AE0F /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB237567127AF0E400C0AE0F /* MapView.xib */; };
+		AB23757F127AFB1F00C0AE0F /* LocationAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB23757E127AFB1F00C0AE0F /* LocationAnnotationView.m */; };
+		AB2AA2EF1279B64400AA7648 /* NativeListTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2AA2EE1279B64400AA7648 /* NativeListTableView.xib */; };
+		AB2AA2F31279B69300AA7648 /* NativeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2AA2F21279B69300AA7648 /* NativeListTableViewController.m */; };
+		AB2AA2F51279B72D00AA7648 /* COUPIES.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB2AA2F41279B72D00AA7648 /* COUPIES.plist */; };
+		DC2725EC174685CF00978A4F /* HtmlListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2725EB174685CF00978A4F /* HtmlListViewController.m */; };
+		DC2725EE1746865900978A4F /* HtmlListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2725ED1746865900978A4F /* HtmlListView.xib */; };
+		DCB5332A17EC429E004FFB1F /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB5332917EC429E004FFB1F /* ProfileView.xib */; };
+		DCB5332D17EC42D6004FFB1F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5332C17EC42D6004FFB1F /* ProfileViewController.m */; };
+		DCD9E93C151C94EC009956F8 /* UIImage+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD9E93B151C94EC009956F8 /* UIImage+NSCoding.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* HelloCOUPIESAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCOUPIESAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* HelloCOUPIESAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloCOUPIESAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* HelloCOUPIES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCOUPIES.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* HelloCOUPIES_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCOUPIES_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72525FD71C5CD2507232B237 /* Pods-HelloCOUPIES.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCOUPIES.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCOUPIES/Pods-HelloCOUPIES.debug.xcconfig"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* HelloCOUPIES-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloCOUPIES-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		962F52D4DDFAC5E83FCDEB33 /* libPods-HelloCOUPIES.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloCOUPIES.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBBE33431D77B75607289F1 /* Pods-HelloCOUPIES.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCOUPIES.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCOUPIES/Pods-HelloCOUPIES.release.xcconfig"; sourceTree = "<group>"; };
+		AB23747A127A9F9600C0AE0F /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		AB23747B127A9F9600C0AE0F /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		AB23747C127A9F9600C0AE0F /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		AB23747D127A9F9600C0AE0F /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		AB23747E127A9F9600C0AE0F /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		AB23747F127A9F9600C0AE0F /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		AB237480127A9F9600C0AE0F /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		AB237481127A9F9600C0AE0F /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		AB237482127A9F9600C0AE0F /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		AB237483127A9F9600C0AE0F /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		AB237484127A9F9600C0AE0F /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		AB237485127A9F9600C0AE0F /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		AB237495127AA27C00C0AE0F /* CouponCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponCell.h; sourceTree = "<group>"; };
+		AB237496127AA27C00C0AE0F /* CouponCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponCell.m; sourceTree = "<group>"; };
+		AB2374CA127AA5E500C0AE0F /* gray_disclosure_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_disclosure_indicator.png; sourceTree = "<group>"; };
+		AB2374CB127AA5E500C0AE0F /* gray_disclosure_indicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray_disclosure_indicator@2x.png"; sourceTree = "<group>"; };
+		AB237520127AAFD400C0AE0F /* CouponView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponView.xib; sourceTree = "<group>"; };
+		AB237523127AB01900C0AE0F /* CouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponViewController.h; sourceTree = "<group>"; };
+		AB237524127AB01900C0AE0F /* CouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponViewController.m; sourceTree = "<group>"; };
+		AB237564127AF0B900C0AE0F /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		AB237565127AF0B900C0AE0F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		AB237567127AF0E400C0AE0F /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		AB23757D127AFB1F00C0AE0F /* LocationAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnnotationView.h; sourceTree = "<group>"; };
+		AB23757E127AFB1F00C0AE0F /* LocationAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAnnotationView.m; sourceTree = "<group>"; };
+		AB237596127B0EAA00C0AE0F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AB2AA2EE1279B64400AA7648 /* NativeListTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeListTableView.xib; sourceTree = "<group>"; };
+		AB2AA2F11279B69300AA7648 /* NativeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeListTableViewController.h; sourceTree = "<group>"; };
+		AB2AA2F21279B69300AA7648 /* NativeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeListTableViewController.m; sourceTree = "<group>"; };
+		AB2AA2F41279B72D00AA7648 /* COUPIES.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = COUPIES.plist; sourceTree = "<group>"; };
+		AB2AA4221279D39E00AA7648 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC2725EA174685CF00978A4F /* HtmlListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlListViewController.h; sourceTree = "<group>"; };
+		DC2725EB174685CF00978A4F /* HtmlListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlListViewController.m; sourceTree = "<group>"; };
+		DC2725ED1746865900978A4F /* HtmlListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HtmlListView.xib; sourceTree = "<group>"; };
+		DC3359A81A5E74EA0084ECE6 /* COUPIES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = COUPIES.framework; path = ../COUPIES.framework; sourceTree = "<group>"; };
+		DCB5332917EC429E004FFB1F /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		DCB5332B17EC42D6004FFB1F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		DCB5332C17EC42D6004FFB1F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		DCD9E927151C92BA009956F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DCD9E928151C92BA009956F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DCD9E92E151C9323009956F8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		DCD9E92F151C9323009956F8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DCD9E930151C9323009956F8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DCD9E934151C9340009956F8 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		DCD9E936151C9379009956F8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DCD9E938151C9390009956F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DCD9E93A151C94EC009956F8 /* UIImage+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NSCoding.h"; sourceTree = "<group>"; };
+		DCD9E93B151C94EC009956F8 /* UIImage+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NSCoding.m"; sourceTree = "<group>"; };
+		DCF1DFC917E6F8DC005C0E1B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482678050021914001C904DB /* libPods-HelloCOUPIES.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB2374E6127AA84F00C0AE0F /* View */,
+				AB237479127A9F7900C0AE0F /* WebImage */,
+				1D3623240D0F684500981E51 /* HelloCOUPIESAppDelegate.h */,
+				1D3623250D0F684500981E51 /* HelloCOUPIESAppDelegate.m */,
+				DC2725EA174685CF00978A4F /* HtmlListViewController.h */,
+				DC2725EB174685CF00978A4F /* HtmlListViewController.m */,
+				AB2AA2F11279B69300AA7648 /* NativeListTableViewController.h */,
+				AB2AA2F21279B69300AA7648 /* NativeListTableViewController.m */,
+				AB237523127AB01900C0AE0F /* CouponViewController.h */,
+				AB237524127AB01900C0AE0F /* CouponViewController.m */,
+				AB237564127AF0B900C0AE0F /* MapViewController.h */,
+				AB237565127AF0B900C0AE0F /* MapViewController.m */,
+				DCB5332B17EC42D6004FFB1F /* ProfileViewController.h */,
+				DCB5332C17EC42D6004FFB1F /* ProfileViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* HelloCOUPIES.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C3BBD44D9E36E89F2A7CF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72525FD71C5CD2507232B237 /* Pods-HelloCOUPIES.debug.xcconfig */,
+				9EBBE33431D77B75607289F1 /* Pods-HelloCOUPIES.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* HelloCOUPIES */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				27C3BBD44D9E36E89F2A7CF7 /* Pods */,
+			);
+			name = HelloCOUPIES;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* HelloCOUPIES_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* HelloCOUPIES-Info.plist */,
+				AB2AA2F41279B72D00AA7648 /* COUPIES.plist */,
+				AB2374CA127AA5E500C0AE0F /* gray_disclosure_indicator.png */,
+				AB2374CB127AA5E500C0AE0F /* gray_disclosure_indicator@2x.png */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				DC2725ED1746865900978A4F /* HtmlListView.xib */,
+				AB2AA2EE1279B64400AA7648 /* NativeListTableView.xib */,
+				AB237520127AAFD400C0AE0F /* CouponView.xib */,
+				AB237567127AF0E400C0AE0F /* MapView.xib */,
+				DCB5332917EC429E004FFB1F /* ProfileView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC3359A81A5E74EA0084ECE6 /* COUPIES.framework */,
+				DCF1DFC917E6F8DC005C0E1B /* AdSupport.framework */,
+				DCD9E934151C9340009956F8 /* libiconv.dylib */,
+				DCD9E938151C9390009956F8 /* QuartzCore.framework */,
+				DCD9E936151C9379009956F8 /* CoreText.framework */,
+				DCD9E92E151C9323009956F8 /* CoreAudio.framework */,
+				DCD9E92F151C9323009956F8 /* CoreMedia.framework */,
+				DCD9E930151C9323009956F8 /* CoreVideo.framework */,
+				DCD9E927151C92BA009956F8 /* AudioToolbox.framework */,
+				DCD9E928151C92BA009956F8 /* AVFoundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				AB2AA4221279D39E00AA7648 /* CoreLocation.framework */,
+				AB237596127B0EAA00C0AE0F /* MapKit.framework */,
+				962F52D4DDFAC5E83FCDEB33 /* libPods-HelloCOUPIES.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB237479127A9F7900C0AE0F /* WebImage */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9E93A151C94EC009956F8 /* UIImage+NSCoding.h */,
+				DCD9E93B151C94EC009956F8 /* UIImage+NSCoding.m */,
+				AB23747A127A9F9600C0AE0F /* SDImageCache.h */,
+				AB23747B127A9F9600C0AE0F /* SDImageCache.m */,
+				AB23747C127A9F9600C0AE0F /* SDWebImageDownloader.h */,
+				AB23747D127A9F9600C0AE0F /* SDWebImageDownloader.m */,
+				AB23747E127A9F9600C0AE0F /* SDWebImageDownloaderDelegate.h */,
+				AB23747F127A9F9600C0AE0F /* SDWebImageManager.h */,
+				AB237480127A9F9600C0AE0F /* SDWebImageManager.m */,
+				AB237481127A9F9600C0AE0F /* SDWebImageManagerDelegate.h */,
+				AB237482127A9F9600C0AE0F /* UIImageView+WebCache.h */,
+				AB237483127A9F9600C0AE0F /* UIImageView+WebCache.m */,
+				AB237484127A9F9600C0AE0F /* UIButton+WebCache.h */,
+				AB237485127A9F9600C0AE0F /* UIButton+WebCache.m */,
+			);
+			name = WebImage;
+			sourceTree = "<group>";
+		};
+		AB2374E6127AA84F00C0AE0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB237495127AA27C00C0AE0F /* CouponCell.h */,
+				AB237496127AA27C00C0AE0F /* CouponCell.m */,
+				AB23757D127AFB1F00C0AE0F /* LocationAnnotationView.h */,
+				AB23757E127AFB1F00C0AE0F /* LocationAnnotationView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* HelloCOUPIES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloCOUPIES" */;
+			buildPhases = (
+				64A0BA3A475A2D4EFC476893 /* Check Pods Manifest.lock */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				9A5CA516152C3EDC66900CAC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCOUPIES;
+			productName = HelloCOUPIES;
+			productReference = 1D6058910D05DD3D006BFB54 /* HelloCOUPIES.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCOUPIES" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				de,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* HelloCOUPIES */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* HelloCOUPIES */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				AB2AA2EF1279B64400AA7648 /* NativeListTableView.xib in Resources */,
+				AB2AA2F51279B72D00AA7648 /* COUPIES.plist in Resources */,
+				AB2374CC127AA5E500C0AE0F /* gray_disclosure_indicator.png in Resources */,
+				AB2374CD127AA5E500C0AE0F /* gray_disclosure_indicator@2x.png in Resources */,
+				AB237521127AAFD400C0AE0F /* CouponView.xib in Resources */,
+				AB237568127AF0E400C0AE0F /* MapView.xib in Resources */,
+				DCB5332A17EC429E004FFB1F /* ProfileView.xib in Resources */,
+				DC2725EE1746865900978A4F /* HtmlListView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64A0BA3A475A2D4EFC476893 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5CA516152C3EDC66900CAC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCOUPIES/Pods-HelloCOUPIES-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* HelloCOUPIESAppDelegate.m in Sources */,
+				AB2AA2F31279B69300AA7648 /* NativeListTableViewController.m in Sources */,
+				AB237486127A9F9600C0AE0F /* SDImageCache.m in Sources */,
+				DCB5332D17EC42D6004FFB1F /* ProfileViewController.m in Sources */,
+				AB237487127A9F9600C0AE0F /* SDWebImageDownloader.m in Sources */,
+				AB237488127A9F9600C0AE0F /* SDWebImageManager.m in Sources */,
+				AB237489127A9F9600C0AE0F /* UIImageView+WebCache.m in Sources */,
+				AB23748A127A9F9600C0AE0F /* UIButton+WebCache.m in Sources */,
+				AB237497127AA27C00C0AE0F /* CouponCell.m in Sources */,
+				AB237525127AB01900C0AE0F /* CouponViewController.m in Sources */,
+				AB237566127AF0B900C0AE0F /* MapViewController.m in Sources */,
+				AB23757F127AFB1F00C0AE0F /* LocationAnnotationView.m in Sources */,
+				DCD9E93C151C94EC009956F8 /* UIImage+NSCoding.m in Sources */,
+				DC2725EC174685CF00978A4F /* HtmlListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72525FD71C5CD2507232B237 /* Pods-HelloCOUPIES.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloCOUPIES_Prefix.pch;
+				INFOPLIST_FILE = "HelloCOUPIES-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = HelloCOUPIES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBBE33431D77B75607289F1 /* Pods-HelloCOUPIES.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloCOUPIES_Prefix.pch;
+				INFOPLIST_FILE = "HelloCOUPIES-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = HelloCOUPIES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(inherited)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloCOUPIES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCOUPIES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
