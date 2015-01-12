@@ -33,7 +33,6 @@
     //self.coupiesManager.partnerToken = @"6";
     
     self.window.rootViewController = tabBarController;
-    self.coupiesManager.partnerToken = @"1";
     [window makeKeyAndVisible];
     return YES;
 }
