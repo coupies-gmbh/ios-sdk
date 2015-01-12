@@ -10,34 +10,29 @@
 	<string>HelloCOUPIES</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>4ca49ba2-4633-de11-a840-00145e5b5a80++8024</key>
-		<string>svn+ssh://svn.coupies.com/coupies/trunk/CoupiesFramework/trunk</string>
+		<key>19B97F03A9416C879AEDBFE251F779FE0D9DA176</key>
+		<string>https://github.com/coupies-gmbh/ios-sdk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Release/HelloCOUPIES/HelloCOUPIES.xcodeproj</string>
+	<string>HelloCOUPIES/HelloCOUPIES.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4ca49ba2-4633-de11-a840-00145e5b5a80++8024</key>
-		<string>../../../..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>4ca49ba2-4633-de11-a840-00145e5b5a80++8024</key>
-		<string>svn+ssh://svn.coupies.com/coupies</string>
+		<key>19B97F03A9416C879AEDBFE251F779FE0D9DA176</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>svn+ssh://svn.coupies.com/coupies/trunk/CoupiesFramework/trunk/Release/HelloCOUPIES/HelloCOUPIES.xcodeproj</string>
+	<string>https://github.com/coupies-gmbh/ios-sdk.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4ca49ba2-4633-de11-a840-00145e5b5a80++8024</string>
+	<string>19B97F03A9416C879AEDBFE251F779FE0D9DA176</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4ca49ba2-4633-de11-a840-00145e5b5a80++8024</string>
+			<string>19B97F03A9416C879AEDBFE251F779FE0D9DA176</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Coupies-iOs-SDK</string>
 		</dict>
