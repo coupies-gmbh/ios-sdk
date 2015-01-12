@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
 
     s.ios.vendored_frameworks = "COUPIES.framework"
 
+    s.library                 = "iconv"
+
     s.frameworks              = "AdSupport", "QuartzCore", "CoreAudio", "CoreMedia", "CoreVideo", "CoreGraphics", "AudioToolbox", "AVFoundation", "Foundation", "UIKit", "CoreGraphics", "CoreLocation", "Mapkit"
 
     s.dependency				"ZBarSDK", "~> 1.3"

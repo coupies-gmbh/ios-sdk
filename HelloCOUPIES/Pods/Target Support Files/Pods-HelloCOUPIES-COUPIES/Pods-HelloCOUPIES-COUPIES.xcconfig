@@ -1,3 +1,0 @@
-PODS_HELLOCOUPIES_COUPIES_CLANG_MODULES_AUTOLINK = YES
-PODS_HELLOCOUPIES_COUPIES_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../.."
-PODS_HELLOCOUPIES_COUPIES_OTHER_LDFLAGS = $(inherited) -ObjC -all_load -framework "AVFoundation" -framework "AdSupport" -framework "AudioToolbox" -framework "COUPIES" -framework "CoreAudio" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreVideo" -framework "Foundation" -framework "Mapkit" -framework "QuartzCore" -framework "UIKit"
