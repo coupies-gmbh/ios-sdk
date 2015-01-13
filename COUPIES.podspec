@@ -3,12 +3,12 @@ Pod::Spec.new do |s|
     s.version                 = "1.9.11"
     s.platform                = :ios, "5.0"
     s.summary                 = "iOS SDK for integrating COUPIES coupons into your application."
-    s.homepage                = "https://www.coupies.de"
+    s.homepage                = "https://github.com/coupies-gmbh/ios-sdk"
     #s.documentation_url       = "http://sensorberg-dev.github.io/ios-sdk/#{s.version}/"
     s.social_media_url        = "https://facebook.com/COUPIES"
     s.authors                 = { "Felix Schul" => "felix.schul@coupies.de" }
     s.license                 = { :type => "Copyright",
-                                  :text => "Copyright 2014 COUPIES GmbH. All rights reserved." }
+                                  :text => "Copyright 2015 COUPIES GmbH. All rights reserved." }
     s.source                  = { :git => "https://github.com/coupies-gmbh/ios-sdk.git",
                                   :tag => s.version.to_s }
 

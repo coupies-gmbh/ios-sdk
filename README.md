@@ -12,17 +12,23 @@ The COUPIES SDK requires iOS 5.0 or later.
 
 We recommend installing COUPIES via [CocoaPods](http://cocoapods.org). Simply add the following line to your Podfile:
 
-pod "COUPIES-iOS-SDK", "~> 1.9.11"
+  pod "COUPIES-iOS-SDK", "~> 1.9"
 
 ### Install manually
 
 To install COUPIES without CocoaPods, follow these steps:
+
 1. Download the [latest stable version](https://github.com/coupies-gmbh/ios-sdk/).
+
 2. Import COUPIES.framework into the Frameworks folder of your project.
+
 3. Import ZBarSDK/libzbar.a into the Frameworks folder of your project ([more details](https://github.com/ZBar/ZBar)).
-3. Import the COUPIES.bundle out of COUPIES.framework/Resources in the resources folder of your project.
-4. Import the COUPIES.xcconfig configuration file to the resources of your project. You do not need to add this file to the build target.
-5. Under your project settings at "Info", select the configurationset "COUPIES" for all configurations. 
+
+4. Import the COUPIES.bundle out of COUPIES.framework/Resources in the resources folder of your project.
+
+5. Import the COUPIES.xcconfig configuration file to the resources of your project. You do not need to add this file to the build target.
+
+6. Under your project settings at "Info", select the configurationset "COUPIES" for all configurations. 
 
 ## Usage
 
