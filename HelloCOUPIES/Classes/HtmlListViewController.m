@@ -65,7 +65,7 @@
     COUPIESStickerRedemptionViewController *viewController = [[COUPIESStickerRedemptionViewController alloc] initWithNibName:@"COUPIESStickerRedemptionView" bundle:[NSBundle CoupiesResourcesBundle]];
     viewController.delegate = self;
     
-    [self presentModalViewController:viewController animated:YES];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 //Some coupons can be redeemed by taking a photo of the receipt after buying a product.
@@ -79,7 +79,7 @@
         //at once on this receipt. If not set, COUPIES will decide.
         viewController.remaining = self.coupon.remaining;
         
-        [self presentModalViewController:viewController animated:YES];
+        [self presentViewController:viewController animated:YES completion:nil];
     } else {
         //Error handling in case the device has no camera. In this case, those coupons cannot be redeemed.
     }
