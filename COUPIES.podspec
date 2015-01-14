@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                    = "COUPIES"
-    s.version                 = "1.9.11"
+    s.version                 = "1.9.12"
     s.platform                = :ios, "5.0"
     s.summary                 = "iOS SDK for integrating COUPIES coupons into your application."
     s.homepage                = "https://github.com/coupies-gmbh/ios-sdk"
@@ -13,8 +13,6 @@ Pod::Spec.new do |s|
                                   :tag => s.version.to_s }
 
     s.resources               = "COUPIES.framework/Versions/A/Resources/*.bundle"
-
-    s.private_header_files    = "COUPIES.framework/Headers/COUPIESRequestFactory+AccountManagement.h", "COUPIES.framework/Headers/COUPIESRestService+AccountManagement.h"
 
     s.ios.vendored_frameworks = "COUPIES.framework"
 

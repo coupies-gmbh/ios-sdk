@@ -1,5 +1,3 @@
-#import <COUPIES/COUPIESButtonWithStroke.h>
-#import <COUPIES/COUPIESCamPreviewView.h>
 #import <COUPIES/COUPIESCashbackRedemptionViewController.h>
 #import <COUPIES/COUPIESCategory.h>
 #import <COUPIES/COUPIESCoupon.h>
@@ -18,20 +16,17 @@
 #import <COUPIES/COUPIESRequestFactory+Bookmarks.h>
 #import <COUPIES/COUPIESRequestFactory+Cashback.h>
 #import <COUPIES/COUPIESRequestFactory+LocationsAndCategories.h>
-#import <COUPIES/COUPIESRequestFactory+PrivateAPI.h>
 #import <COUPIES/COUPIESRequestFactory.h>
 #import <COUPIES/COUPIESRestService+AccountManagement.h>
 #import <COUPIES/COUPIESRestService+Bookmarks.h>
 #import <COUPIES/COUPIESRestService+Cashback.h>
 #import <COUPIES/COUPIESRestService+LocationsAndCategories.h>
-#import <COUPIES/COUPIESRestService+PrivateAPI.h>
 #import <COUPIES/COUPIESRestService.h>
 #import <COUPIES/COUPIESRestWrapper.h>
 #import <COUPIES/COUPIESSAXParseable.h>
 #import <COUPIES/COUPIESSAXParserDelegate.h>
 #import <COUPIES/COUPIESStickerRedemptionViewController.h>
 #import <COUPIES/COUPIESUser.h>
-#import <COUPIES/COUPIES_SecureUDID.h>
 #import <COUPIES/NSArray+COUPIESExtension.h>
 #import <COUPIES/NSBundle+COUPIESExtension.h>
 #import <COUPIES/NSData+COUPIESExtension.h>
