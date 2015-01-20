@@ -42,6 +42,6 @@ To run the example project (HelloCOUPIES), clone the repo, and open the Xcode pr
 
 Felix Schul, felix.schul@coupies.de
 
-#Bugs
+##Bugs
 
 If you encounter any bugs. Please [report them](https://github.com/coupies-gmbh/ios-sdk/issues).
