@@ -1,5 +1,8 @@
 # COUPIES iOs SDK
 
+[![Pod Version](http://img.shields.io/cocoapods/v/COUPIES.svg?style=flat)](http://cocoadocs.org/docsets/COUPIES/)
+[![Pod Platform](http://img.shields.io/cocoapods/p/COUPIES.svg?style=flat)](http://cocoadocs.org/docsets/COUPIES/)
+
 The COUPIES iOs SDK enables you to easily integrate coupons in your app. The easiest way is to display everything in a UIWebView and let COUPIES do the rendering. You can customize the appearance with CSS. It is also possible to retrieve the objects directly (e.g. coupons and locations) and do the UI natively.
 
 ## Requirements
