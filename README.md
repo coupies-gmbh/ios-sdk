@@ -1,5 +1,6 @@
 # COUPIES iOs SDK
 
+[![Build Status](http://img.shields.io/travis/coupies-gmbh/ios-sdk/master.svg?style=flat)](https://travis-ci.org/coupies-gmbh/ios-sdk)
 [![Pod Version](http://img.shields.io/cocoapods/v/COUPIES.svg?style=flat)](http://cocoadocs.org/docsets/COUPIES/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/COUPIES.svg?style=flat)](http://cocoadocs.org/docsets/COUPIES/)
 
