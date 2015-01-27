@@ -32,7 +32,8 @@
     */
     //self.coupiesManager.partnerToken = @"6";
     
-    #error request an API key at felix.schul@coupies.de and remove this error message. Copy the file "COUPIES.plist" from the example project to your local resources and enter the API-key there.
+    //Request an API key at felix.schul@coupies.de and remove this error message. Copy the file \"COUPIES.plist\" from the example project to your local resources and enter the API-key there.
+    [NSException raise:@"Request an API key at felix.schul@coupies.de and remove this error message. Copy the file \"COUPIES.plist\" from the example project to your local resources and enter the API-key there." format:@""];
     
     self.window.rootViewController = tabBarController;
     [window makeKeyAndVisible];
