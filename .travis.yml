@@ -1,4 +1,4 @@
 language: objective-c
 xcode_project: HelloCOUPIES/HelloCOUPIES.xcodeproj
 xcode_scheme: HelloCOUPIES
-xcode_sdk: iphonesimulator8.0
+xcode_sdk: iphonesimulator
