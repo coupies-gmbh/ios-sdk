@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name                    = "COUPIES"
-    s.version                 = "1.9.13"
-    s.platform                = :ios, "5.0"
+    s.version                 = "1.9.14"
+    s.platform                = :ios, "6.0"
     s.summary                 = "iOS SDK for integrating COUPIES coupons into your application."
     s.homepage                = "https://github.com/coupies-gmbh/ios-sdk"
     #s.documentation_url       = "http://sensorberg-dev.github.io/ios-sdk/#{s.version}/"
