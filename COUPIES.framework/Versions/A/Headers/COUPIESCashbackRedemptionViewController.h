@@ -57,29 +57,7 @@
  
  @see https://github.com/coupies-gmbh/ios-sdk for more information.
  */
-@interface COUPIESCashbackRedemptionViewController : UIViewController {
-    @private
-    int remaining;
-    int quantity;
-    IBOutlet UINavigationBar *navbar;
-    IBOutlet COUPIESCamPreviewView *cameraView;
-    IBOutlet UIView *howToView1;
-    IBOutlet UIView *howToView2;
-    
-    IBOutlet UIView *bottomView;
-    IBOutlet UIView *takePictureView;
-    IBOutlet UIView *comfirmPictureView;
-    IBOutlet UIView *countProductView;
-    IBOutlet UIButton *cameraButton;
-    IBOutlet UITextField *productCountTextField;
-    IBOutlet UIButton *howToButton;
-    IBOutlet UIImageView *imageLookup;
-    IBOutlet UIButton *takeMorePicturesButton;
-    IBOutlet UIScrollView *lookupImagesScrollView;
-    IBOutlet UIImageView *cameraOverlayImage;
-    IBOutlet UIView *overlayHelpView;
-    
-}
+@interface COUPIESCashbackRedemptionViewController : UIViewController 
 
 /**
  Set your viewController to be the delegate here.

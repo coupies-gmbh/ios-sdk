@@ -70,13 +70,7 @@
  @see https://github.com/coupies-gmbh/ios-sdk for more information.
  @see http://zbar.sourceforge.net/iphone/sdkdoc/install.html for more information on ZBar.
  */
-@interface COUPIESStickerRedemptionViewController : UIViewController <ZBarReaderViewDelegate> {
-@private
-    COUPIESManager *coupiesManager;
-    COUPIESCoupon *coupon;
-    IBOutlet UIView *howToView;
-    IBOutlet UIView *reader;
-}
+@interface COUPIESStickerRedemptionViewController : UIViewController <ZBarReaderViewDelegate> 
 
 /**
  Use this property to customize the appearance.
