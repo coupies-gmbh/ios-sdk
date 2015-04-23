@@ -11,13 +11,6 @@
 
 @class COUPIESCamPreviewView;
 
-/** This is the default compression. In most cases you can leave this value. */
-float const kCOUPIESCashbackPhotoCompressionStandard = 1.0f;
-/** Use this value when you are experiencing memory issues. */
-float const kCOUPIESCashbackPhotoCompressionMedium = 0.7f;
-/** Use this value when you are experiencing heavy memory issues. Please check with COUPIES, if images still arrive in a usable resolution */
-float const kCOUPIESCashbackPhotoCompressionLow = 0.5f;
-
 /**
  This is the delegate for controllers using a COUPIESCashbackRedemptionViewController.
  */
@@ -83,12 +76,12 @@ float const kCOUPIESCashbackPhotoCompressionLow = 0.5f;
 
 /**
  Set the compression of the photos, which are returned by this viewController.
- The default value is kCOUPIESCashbackPhotoCompressionStandard = 1.
+ The default value is 1.
  Can be set to a constant or to a float value. Please see constants for more info.
  Set to lower than 1 to reduce file size and larger than 1 to increase quality. Be careful with memory
  issues when setting to values larger than 1. Values larger than 2 will be reduced.
  @code
- viewController.compression = kCOUPIESCashbackPhotoCompressionMedium;
+ viewController.compression = 1;
  @endcode
  */
 @property float compression;
