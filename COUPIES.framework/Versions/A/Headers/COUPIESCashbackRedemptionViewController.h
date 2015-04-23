@@ -75,6 +75,18 @@
 @property int remaining;
 
 /**
+ Set the compression of the photos, which are returned by this viewController.
+ The default value is 1.
+ Can be set to a constant or to a float value. Please see constants for more info.
+ Set to lower than 1 to reduce file size and larger than 1 to increase quality. Be careful with memory
+ issues when setting to values larger than 1. Values larger than 2 will be reduced.
+ @code
+ viewController.compression = 1;
+ @endcode
+ */
+@property float compression;
+
+/**
  Triggered by the user when pressing the photo button.
  */
 -(IBAction)takePicture:(id)sender;
