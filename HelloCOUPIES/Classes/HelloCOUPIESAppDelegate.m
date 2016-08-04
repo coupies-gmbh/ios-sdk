@@ -32,8 +32,12 @@
     */
     //self.coupiesManager.partnerToken = @"6";
     
-    //Request an API key at felix.schul@coupies.de and remove this error message. Copy the file \"COUPIES.plist\" from the example project to your local resources and enter the API-key there.
-    [NSException raise:@"Request an API key at felix.schul@coupies.de and remove this error message. Copy the file \"COUPIES.plist\" from the example project to your local resources and enter the API-key there." format:@""];
+    /*
+     * Request an API key at felix.gillen@coupies.de and remove this error alert.
+     * Copy the file \"COUPIES.plist\" from the example project to your local resources and enter the API-key there.
+     */
+    UIAlertView *missingApiKeyAlert = [[UIAlertView alloc] initWithTitle:@"Missing API key" message:@"Request an API key at felix.gillen@coupies.de and remove this error message.\n\nCopy the file \"COUPIES.plist\" from the example project to your local resources and enter the API-key there." delegate:nil cancelButtonTitle:nil otherButtonTitles:nil, nil];
+    [missingApiKeyAlert show];
     
     self.window.rootViewController = tabBarController;
     [window makeKeyAndVisible];
