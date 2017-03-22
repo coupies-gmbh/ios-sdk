@@ -26,11 +26,16 @@
 		AB2AA2EF1279B64400AA7648 /* NativeListTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2AA2EE1279B64400AA7648 /* NativeListTableView.xib */; };
 		AB2AA2F31279B69300AA7648 /* NativeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2AA2F21279B69300AA7648 /* NativeListTableViewController.m */; };
 		AB2AA2F51279B72D00AA7648 /* COUPIES.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB2AA2F41279B72D00AA7648 /* COUPIES.plist */; };
+		D87D59CF1E82D00E005934CB /* COUPIES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87D59CE1E82D00E005934CB /* COUPIES.framework */; };
+		D87D59D31E82D061005934CB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87D59D21E82D061005934CB /* ImageIO.framework */; };
+		D87D59D51E82D07F005934CB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87D59D41E82D07F005934CB /* GLKit.framework */; };
+		D87D59E11E82D132005934CB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87D59E01E82D132005934CB /* OpenGLES.framework */; };
+		D87D59E21E82D15F005934CB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87D59D01E82D03E005934CB /* CoreImage.framework */; };
+		D87D59E31E82D16D005934CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87D59D81E82D0C2005934CB /* MobileCoreServices.framework */; };
 		DC2725EC174685CF00978A4F /* HtmlListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2725EB174685CF00978A4F /* HtmlListViewController.m */; };
 		DC2725EE1746865900978A4F /* HtmlListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2725ED1746865900978A4F /* HtmlListView.xib */; };
 		DCB5332A17EC429E004FFB1F /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB5332917EC429E004FFB1F /* ProfileView.xib */; };
 		DCB5332D17EC42D6004FFB1F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5332C17EC42D6004FFB1F /* ProfileViewController.m */; };
-		DCCA7A681A6421C10024E42F /* COUPIES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCA7A671A6421C10024E42F /* COUPIES.framework */; };
 		DCCA7A6A1A6421E30024E42F /* COUPIES.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCCA7A691A6421E30024E42F /* COUPIES.bundle */; };
 		DCCA7A891A6421FD0024E42F /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCA7A831A6421FD0024E42F /* libzbar.a */; };
 		DCD9E93C151C94EC009956F8 /* UIImage+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD9E93B151C94EC009956F8 /* UIImage+NSCoding.m */; };
@@ -72,6 +77,16 @@
 		AB2AA2F11279B69300AA7648 /* NativeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeListTableViewController.h; sourceTree = "<group>"; };
 		AB2AA2F21279B69300AA7648 /* NativeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeListTableViewController.m; sourceTree = "<group>"; };
 		AB2AA2F41279B72D00AA7648 /* COUPIES.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = COUPIES.plist; sourceTree = "<group>"; };
+		D87D59CE1E82D00E005934CB /* COUPIES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = COUPIES.framework; sourceTree = "<group>"; };
+		D87D59D01E82D03E005934CB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D87D59D21E82D061005934CB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D87D59D41E82D07F005934CB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		D87D59D61E82D0B0005934CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D87D59D81E82D0C2005934CB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D87D59DA1E82D107005934CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D87D59DC1E82D112005934CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D87D59DE1E82D120005934CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D87D59E01E82D132005934CB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		DC2725EA174685CF00978A4F /* HtmlListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlListViewController.h; sourceTree = "<group>"; };
 		DC2725EB174685CF00978A4F /* HtmlListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlListViewController.m; sourceTree = "<group>"; };
 		DC2725ED1746865900978A4F /* HtmlListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HtmlListView.xib; sourceTree = "<group>"; };
@@ -79,7 +94,6 @@
 		DCB5332B17EC42D6004FFB1F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		DCB5332C17EC42D6004FFB1F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		DCCA7A651A64210D0024E42F /* COUPIES.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = COUPIES.xcconfig; path = ../COUPIES.xcconfig; sourceTree = "<group>"; };
-		DCCA7A671A6421C10024E42F /* COUPIES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = COUPIES.framework; path = ../COUPIES.framework; sourceTree = "<group>"; };
 		DCCA7A691A6421E30024E42F /* COUPIES.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = COUPIES.bundle; path = ../COUPIES.framework/Versions/A/Resources/COUPIES.bundle; sourceTree = "<group>"; };
 		DCCA7A6F1A6421FD0024E42F /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
 		DCCA7A701A6421FD0024E42F /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
@@ -111,8 +125,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87D59E21E82D15F005934CB /* CoreImage.framework in Frameworks */,
+				D87D59CF1E82D00E005934CB /* COUPIES.framework in Frameworks */,
+				D87D59D31E82D061005934CB /* ImageIO.framework in Frameworks */,
+				D87D59D51E82D07F005934CB /* GLKit.framework in Frameworks */,
+				D87D59E31E82D16D005934CB /* MobileCoreServices.framework in Frameworks */,
+				D87D59E11E82D132005934CB /* OpenGLES.framework in Frameworks */,
 				DCCA7A891A6421FD0024E42F /* libzbar.a in Frameworks */,
-				DCCA7A681A6421C10024E42F /* COUPIES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +210,17 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D87D59E01E82D132005934CB /* OpenGLES.framework */,
+				D87D59DE1E82D120005934CB /* UIKit.framework */,
+				D87D59DC1E82D112005934CB /* CoreGraphics.framework */,
+				D87D59DA1E82D107005934CB /* Foundation.framework */,
+				D87D59D81E82D0C2005934CB /* MobileCoreServices.framework */,
+				D87D59D61E82D0B0005934CB /* AVFoundation.framework */,
+				D87D59D41E82D07F005934CB /* GLKit.framework */,
+				D87D59D21E82D061005934CB /* ImageIO.framework */,
+				D87D59D01E82D03E005934CB /* CoreImage.framework */,
+				D87D59CE1E82D00E005934CB /* COUPIES.framework */,
 				DCCA7A6B1A6421FD0024E42F /* ZBarSDK */,
-				DCCA7A671A6421C10024E42F /* COUPIES.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -389,6 +417,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/..",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -419,6 +448,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/..",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloCOUPIES_Prefix.pch;
