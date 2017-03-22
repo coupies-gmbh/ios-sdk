@@ -1,14 +1,13 @@
 Pod::Spec.new do |s|
     s.name                    = "COUPIES"
-    s.version                 = "1.9.17"
-    s.platform                = :ios, "6.0"
+    s.version                 = "1.9.22"
+    s.platform                = :ios, "8.0"
     s.summary                 = "iOS SDK for integrating COUPIES coupons into your application."
     s.homepage                = "https://github.com/coupies-gmbh/ios-sdk"
-    #s.documentation_url       = "http://sensorberg-dev.github.io/ios-sdk/#{s.version}/"
     s.social_media_url        = "https://facebook.com/COUPIES"
-    s.authors                 = { "Omar Akrout" => "omar.akrout@coupies.de" }
+    s.authors                 = { "Marcel Bender" => "marcel.bender@coupies.de" }
     s.license                 = { :type => "Copyright",
-                                  :text => "Copyright 2015 COUPIES GmbH. All rights reserved." }
+                                  :text => "Copyright 2017 COUPIES GmbH. All rights reserved." }
     s.source                  = { :git => "https://github.com/coupies-gmbh/ios-sdk.git",
                                   :tag => s.version.to_s }
 
@@ -18,7 +17,7 @@ Pod::Spec.new do |s|
 
     s.library                 = "iconv"
 
-    s.frameworks              = "AdSupport", "QuartzCore", "CoreAudio", "CoreMedia", "CoreVideo", "CoreGraphics", "AudioToolbox", "AVFoundation", "Foundation", "UIKit", "CoreGraphics", "CoreLocation", "Mapkit"
+    s.frameworks              = "AdSupport", "QuartzCore", "CoreAudio", "CoreMedia", "CoreImage","CoreVideo", "CoreGraphics", "AudioToolbox", "AVFoundation", "Foundation", "UIKit", "CoreGraphics", "CoreLocation", "Mapkit", "OpenGLES", "MobileCoreServices", "ImageIO" 
 
     s.dependency				"ZBarSDK", "~> 1.3"
 
