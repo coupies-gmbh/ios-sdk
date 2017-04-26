@@ -48,7 +48,7 @@
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"COUPIES" ofType:@"plist"];
     NSDictionary *plistContent = [NSDictionary dictionaryWithContentsOfFile:plistPath];
     
-    return plistContent[@"kCOUPIESApiKey"] != nil;
+    return plistContent[@"kCOUPIESApiKey"] != nil && [plistContent[@"kCOUPIESApiKey"] length] > 0;
 }
 
 /**
