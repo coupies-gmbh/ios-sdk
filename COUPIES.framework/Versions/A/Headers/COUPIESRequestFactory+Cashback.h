@@ -7,10 +7,12 @@
 //
 
 #import "COUPIESRequestFactory.h"
+@class COUPIESReceipt;
 
 @interface COUPIESRequestFactory(Cashback)
 
 - (id)requestForListCashbackRedemptions;
 - (id)requestForUploadingReceipt:(NSData *)inImage;
+- (id)requestForUpdateReceipt:(int)inReceiptId withComment:(NSString *)inComment;
 
 @end

@@ -2,62 +2,52 @@
 //  COUPIESCashbackRedemptionViewController.h
 //  COUPIES
 //
-//  Created by Felix Schul on 01.02.13.
-//  Copyright (c) 2013 COUPIES GmbH. All rights reserved.
+//  Copyright COUPIES GmbH. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@class COUPIESCamPreviewView;
+@class COUPIESRestService;
+@class COUPIESCoupon;
 
 /**
- This is the delegate for controllers using a COUPIESCashbackRedemptionViewController.
+ * This is the delegate for controllers using a COUPIESCashbackRedemptionViewController.
  */
 @protocol COUPIESCashbackRedemptionViewControllerDelegate
 
 /**
- This delegate function is called, when the user took the receipt picture and reviewed it.
- Within the delegate function, you should trigger the redemption using
- @code
- [self.restService redeemCoupon:self.coupon withReceipt:image];
- @endcode
- The redemption is not automatically trigerred by this controller, this is deprecated.
+ * This delegate function is called, when the user took the receipt picture and reviewed it.
+ * Within the delegate function, you should trigger the redemption using
+ * @code
+ * [self.restService redeemCoupon:self.coupon withReceipt:image];
+ * @endcode
+ * The redemption is not automatically triggered by this controller, this is deprecated.
  */
--(void)didFinishPickingReceipt:(NSArray *)images withQuantity:(int)quantity;
-
-@optional
+- (void)didFinishPickingReceipt:(NSArray *)images withQuantity:(int)quantity;
 
 /**
- This delegate function is called, when the user clicks the "how to"-button
- and can be optionally used e.g. for analytics
+ * This delegate function is called when the user tapped on the confirm button after
+ * an image has been uploaded to the server.
  */
--(void)howToButtonPressed;
-
-/**
- This delegate function is called, when the user clicked on "yes, send now" and before
- didFinishPickingReceipt: is invoced. There is a small time lack of about 1 second between those
- because the compression of the image takes some time.
- It is advised to start displaying an ActivityIndicator at this point.
- */
--(void)didStartCompressingImage;
+- (void)userDidConfirmImageUpload;
 
 @end
 
 /**
- This class handles the redemption of a coupon, which is redeemed by uploading a photo of the receipt.
- It represents the controller layer of the "Photograph the receipt" screen.
- Example usage:
- @code
- COUPIESStickerRedemptionViewController *viewController = [[COUPIESStickerRedemptionViewController alloc] initWithNibName:@"COUPIESStickerRedemptionView" bundle:[NSBundle CoupiesResourcesBundle]];
- viewController.delegate = self;
- 
- [self presentViewController:viewController animated:YES completion:nil];
- @endcode
- 
- @see https://github.com/coupies-gmbh/ios-sdk for more information.
+ * This class handles the redemption of a coupon, which is redeemed by uploading a photo of the receipt.
+ * It represents the controller layer of the "Photograph the receipt" screen.
+ * Example usage:
+ * @code
+ * COUPIESStickerRedemptionViewController *viewController = [[COUPIESStickerRedemptionViewController alloc] initWithNibName:@"COUPIESStickerRedemptionView" bundle:[NSBundle CoupiesResourcesBundle]];
+ * viewController.delegate = self;
+ *
+ * [self presentViewController:viewController animated:YES completion:nil];
+ * @endcode
+ *
+ * @see https://github.com/coupies-gmbh/ios-sdk for more information.
  */
-@interface COUPIESCashbackRedemptionViewController : UIViewController 
+@interface COUPIESCashbackRedemptionViewController : UIViewController
 
 /**
  Set your viewController to be the delegate here.
@@ -65,72 +55,72 @@
 @property (nonatomic, unsafe_unretained) IBOutlet id redemptionDelegate;
 
 /**
- Set the number of remaining redemptions for the user and the coupon here. e.g.:
- @code
- viewController.remaining = self.coupon.remaining;
- @endcode
- If you set this property, the view will not allow to enter an amount larger than the 
- remaining coupons.
+ * Sets the COUPIESRestService instance to handle the image upload process, e.g.
+ * @code
+ * id theDelegate = [[UIApplication sharedApplication] delegate];
+ * ...
+ * viewController.restService = [[theDelegate coupiesManager] newRestService];
+ * @endcode
  */
-@property int remaining;
+@property (nonatomic, strong) COUPIESRestService *restService;
 
 /**
- Set the compression of the photos, which are returned by this viewController.
- The default value is 1.
- Can be set to a constant or to a float value. Please see constants for more info.
- Set to lower than 1 to reduce file size and larger than 1 to increase quality. Be careful with memory
- issues when setting to values larger than 1. Values larger than 2 will be reduced.
- @code
- viewController.compression = 1;
- @endcode
+ * Set the coupon for the current redemption process here, e.g.:
+ * @code
+ * viewController.coupon = self.coupon;
+ * @endcode
  */
-@property float compression;
+@property (nonatomic, strong) COUPIESCoupon *coupon;
 
 /**
- Triggered by the user when pressing the photo button.
+ * Sets the number of available images that the user already took. This value is updated by the CameraPreviewController
+ * as soon as the user adds or removes another section. Normally there is no need to overwrite this value.
+ *
+ * Example:
+ * @code
+ * viewController.numberOfAvailableImages = 0;
+ * @endcode
  */
--(IBAction)takePicture:(id)sender;
+@property (nonatomic) NSInteger numberOfAvailableImages;
 
 /**
- Triggered by the user to open/close the howto view.
+ * If set the dismiss animation has already been triggered by another view to avoid a duplicate animation
  */
--(IBAction)showHideHowToView:(id)sender;
+@property (nonatomic) BOOL dismissAnimationIsRunning;
 
 /**
- Triggered by the user when the image is reviewed.
+ * If set a default receipt image is shown in the camera preview.
  */
--(IBAction)approveImage:(id)sender;
+@property (nonatomic) BOOL isUsingDemoCoupon;
 
 /**
- Triggered by the user when he wants to take the image again.
+ * If set a progress indicator and success/error message is shown after the
+ * image upload like it's used inside the COUPIES application. If set refreshing
+ * the coupon detail view has to handled manually, e.g. by using the
+ * provided COUPIESCashbackRedemptionViewControllerDelegate method called
+ * didFinishImageUploadWithSuccess.
  */
--(IBAction)rejectImage:(id)sender;
+@property (nonatomic) BOOL isUsingCoupiesUI;
 
 /**
-  Triggered by the user when he increaeses the number of redemptions.
+ * Triggered by the user when he wants to take a picture
  */
--(IBAction)incrementProductCount:(id)sender;
+- (IBAction)captureButtonTapped:(id)sender;
 
 /**
-  Triggered by the user when he decreaeses the number of redemptions.
+ * Triggered by the user when he wants to enable or disable the light at the back of the phone
  */
--(IBAction)decrementProductCount:(id)sender;
+- (IBAction)lightBtnTapped:(id)sender;
 
 /**
-  Starts sending the image to COUPIES.
+ * Triggered by the user when he wants to switch between the manual or auto camera mode (default)
  */
--(IBAction)sendImage:(id)sender;
+- (IBAction)cameraModeBtnTapped:(id)sender;
 
 /**
- Triggered when the user closes the view using the "X" button.
+ * Triggered by the user when he wants to dismiss the camera view
  */
--(IBAction)closeViewController:(id)sender;
-
-/**
- Triggered by the user to add another photo of the receipt (up to 3)
- */
--(IBAction)takeMorePictures:(id)sender;
-
+- (IBAction)closeBtnTapped:(id)sender;
 
 @end
 

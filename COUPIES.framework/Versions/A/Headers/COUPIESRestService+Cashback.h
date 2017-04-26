@@ -12,5 +12,6 @@
 
 - (void)listCashbackRedemptions;
 - (void)uploadReceipt:(NSData *)inImage;
+- (void)updateReceipt:(NSInteger)inReciptId withComment:(NSString *)inComment;
 
 @end

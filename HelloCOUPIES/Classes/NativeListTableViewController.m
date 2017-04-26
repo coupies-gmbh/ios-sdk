@@ -1,6 +1,6 @@
 #import "NativeListTableViewController.h"
+#import "NativeCouponViewController.h"
 #import "CouponCell.h"
-#import "CouponViewController.h"
 #import <COUPIES/COUPIES.h>
 
 @interface NativeListTableViewController()<COUPIESRestServiceDelegate>
@@ -22,6 +22,18 @@
 @synthesize cellIdentifier;
 @synthesize couponViewController;
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.restService = [self.coupiesManager newRestService];
+    self.restService.delegate = self;
+    [self reloadList];
+}
+
+- (void)viewDidUnload {
+    [self reset];
+    [super viewDidUnload];
+}
+
 - (void)dealloc {
     [self reset];
 }
@@ -35,32 +47,6 @@
     self.cellData = nil;
     self.cellIdentifier = nil;
     self.couponViewController = nil;
-}
-
-- (CouponCell *)couponCell {
-    return nil;
-}
-
-- (void)setCouponCell:(CouponCell *)inCell {
-    self.cellData = [NSKeyedArchiver archivedDataWithRootObject:inCell];
-    self.cellIdentifier = inCell.reuseIdentifier;
-    cellHeight = CGRectGetHeight(inCell.frame);
-}
-
-- (CouponCell *)createCouponCell {
-    return [NSKeyedUnarchiver unarchiveObjectWithData:self.cellData];
-}
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    self.restService = [self.coupiesManager newRestService];
-    self.restService.delegate = self;
-    [self reloadList];
-}
-
-- (void)viewDidUnload {
-    [self reset];
-    [super viewDidUnload];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)inInterfaceOrientation {
@@ -86,11 +72,25 @@
     COUPIESOffer *theCoupon = [self.coupons objectAtIndex:inIndexPath.row];
     CouponCell *theCell = (CouponCell *)[inTableView dequeueReusableCellWithIdentifier:self.cellIdentifier];
     
-    if(theCell == nil) {
+    if (theCell == nil) {
         theCell = [self createCouponCell];
     }
     theCell.coupon = theCoupon;
     return theCell;
+}
+
+- (CouponCell *)couponCell {
+    return nil;
+}
+
+- (CouponCell *)createCouponCell {
+    return [NSKeyedUnarchiver unarchiveObjectWithData:self.cellData];
+}
+
+- (void)setCouponCell:(CouponCell *)inCell {
+    self.cellData = [NSKeyedArchiver archivedDataWithRootObject:inCell];
+    self.cellIdentifier = inCell.reuseIdentifier;
+    cellHeight = CGRectGetHeight(inCell.frame);
 }
 
 #pragma mark UITableViewDelegate
@@ -100,9 +100,8 @@
 }
 
 - (void)tableView:(UITableView *)inTableView didSelectRowAtIndexPath:(NSIndexPath *)inIndexPath {
-    CouponViewController *theController = self.couponViewController;
+    NativeCouponViewController *theController = self.couponViewController;
     COUPIESCoupon *theCoupon = [self.coupons objectAtIndex:inIndexPath.row];
-    
     theController.coupon = theCoupon;
     theController.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:theController animated:YES];
