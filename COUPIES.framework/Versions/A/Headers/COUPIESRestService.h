@@ -63,9 +63,12 @@
 - (void)listCouponsWithCustomer:(COUPIESCustomer *)inCustomer;
 - (void)listCouponsWithInterests;
 - (void)listCouponsWithInterestsWithRadius:(NSUInteger)inRadius andLimit:(NSUInteger)inLimit;
+- (void)listCouponsWithInterestsWithRadius:(NSUInteger)inRadius andLimit:(NSUInteger)inLimit andType:(NSString *)inType;
 - (void)redeemCoupon:(COUPIESCoupon *)inCoupon;
 - (void)redeemCoupon:(COUPIESCoupon *)inCoupon withStickercode:(NSString *)inCode;
 - (void)redeemCoupon:(COUPIESCoupon *)inCoupon withReceipt:(NSData *)inImage;
 - (void)redeemCoupon:(COUPIESCoupon *)inCoupon withReceipt:(NSArray *)inImages quantity:(int)inQuantity;
+- (void)listShoppingList;
+- (void)sendShoppingList:(NSMutableArray *)list;
 
 @end

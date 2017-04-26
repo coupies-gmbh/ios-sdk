@@ -67,6 +67,7 @@ typedef enum {
 - (id)requestForListCashbackCoupons;
 - (id)requestForListWithInterests;
 - (id)requestForListWithInterestsWithRadius:(NSUInteger)inRadius andLimit:(NSUInteger)inLimit;
+- (id)requestForListWithInterestsWithRadius:(NSUInteger)inRadius andLimit:(NSUInteger)inLimit andType:(NSString *)inType;
 - (id)requestForCouponsWithQuery:(NSString *)inQuery;
 - (id)requestForCouponsWithCustomer:(COUPIESCustomer *)inCustomer;
 - (id)requestForCouponWithId:(NSUInteger)couponId;
@@ -74,5 +75,7 @@ typedef enum {
 - (id)requestForRedeemingCoupon:(COUPIESOffer *)inCoupon;
 - (id)requestForRedeemingCoupon:(COUPIESOffer *)inCoupon withStickercode:(NSString *)inCode;
 - (id)requestForRedeemingCoupon:(COUPIESOffer *)inCoupon withReceipt:(NSArray *)inImages quantity:(int)inQuantity;
+- (id)requestForListShoppingList;
+- (id)requestForSendingShoppingList:(NSMutableArray*) list;
 
 @end
