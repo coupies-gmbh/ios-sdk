@@ -1,3 +1,4 @@
+osx_image: xcode8.3
 language: objective-c
 xcode_project: HelloCOUPIES/HelloCOUPIES.xcodeproj
 xcode_scheme: HelloCOUPIES
