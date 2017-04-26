@@ -33,6 +33,7 @@ extern NSString * const kRFC1123NumericTimeZoneTimestampFormat;
 - (NSString *)trimToNil;
 - (NSString *)encodedParameterValue;
 - (NSString *)cut:(NSUInteger)inLength;
++ (NSString *)localizedString:(NSString *)key inTable:(NSString *)table;
 - (BOOL)isValidStringForMinLength:(int)inMin maxLength:(int)inMax;
 - (BOOL)isValidEmail;
 - (BOOL)isNumericOnly;

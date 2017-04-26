@@ -2,8 +2,7 @@
 //  CouponCell.m
 //  COUPIES GmbH
 //
-//  Created by Clemens Wagner on 25.06.10.
-//  Copyright 2010 COUPIES GmbH. All rights reserved.
+//  Copyright COUPIES GmbH. All rights reserved.
 //
 
 #import "CouponCell.h"
