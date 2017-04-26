@@ -3,3 +3,7 @@ language: objective-c
 xcode_project: HelloCOUPIES/HelloCOUPIES.xcodeproj
 xcode_scheme: HelloCOUPIES
 xcode_sdk: iphonesimulator10.3
+
+before_install:
+  - brew update
+  - brew outdated xctool || brew upgrade xctool
