@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                    = "COUPIES"
-    s.version                 = "1.9.22"
+    s.version                 = "1.10.0"
     s.platform                = :ios, "8.0"
     s.summary                 = "iOS SDK for integrating COUPIES coupons into your application."
     s.homepage                = "https://github.com/coupies-gmbh/ios-sdk"
@@ -18,8 +18,6 @@ Pod::Spec.new do |s|
     s.library                 = "iconv"
 
     s.frameworks              = "AdSupport", "QuartzCore", "CoreAudio", "CoreMedia", "CoreImage","CoreVideo", "CoreGraphics", "AudioToolbox", "AVFoundation", "Foundation", "UIKit", "CoreGraphics", "CoreLocation", "Mapkit", "OpenGLES", "MobileCoreServices", "ImageIO", "GLKit" 
-
-    s.dependency				"ZBarSDK", "~> 1.3"
 
     s.requires_arc            = true
 
