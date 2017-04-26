@@ -4,6 +4,4 @@ xcode_project: HelloCOUPIES/HelloCOUPIES.xcodeproj
 xcode_scheme: HelloCOUPIES
 xcode_sdk: iphonesimulator10.3
 
-before_install:
-  - brew update
-  - brew outdated xctool || brew upgrade xctool
+script: xcodebuild -project HelloCOUPIES/HelloCOUPIES.xcodeproj -scheme HelloCOUPIES -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO   
