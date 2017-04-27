@@ -16,6 +16,7 @@
  */
 @protocol COUPIESCashbackRedemptionViewControllerDelegate
 
+@required
 /**
  * This delegate function is called, when the user took the receipt picture and reviewed it.
  * Within the delegate function, you should trigger the redemption using
@@ -26,6 +27,7 @@
  */
 - (void)didFinishPickingReceipt:(NSArray *)images withQuantity:(int)quantity;
 
+@optional
 /**
  * This delegate function is called when the user tapped on the confirm button after
  * an image has been uploaded to the server.
