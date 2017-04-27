@@ -8,7 +8,7 @@ The COUPIES iOs SDK enables you to easily integrate coupons in your app. The eas
 
 ## Requirements
 
-The COUPIES SDK requires iOS 5.0 or later.
+The COUPIES SDK requires iOS 8.0 or later.
 
 ## Installation
 
@@ -16,7 +16,7 @@ The COUPIES SDK requires iOS 5.0 or later.
 
 We recommend installing COUPIES via [CocoaPods](http://cocoapods.org). Simply add the following line to your Podfile:
 
-    pod "COUPIES", "~> 1.10.0"
+    pod "COUPIES", "~> 1.10.1"
 
 ### Install manually
 
