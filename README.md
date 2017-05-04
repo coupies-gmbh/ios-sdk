@@ -16,7 +16,7 @@ The COUPIES SDK requires iOS 8.0 or later.
 
 We recommend installing COUPIES via [CocoaPods](http://cocoapods.org). Simply add the following line to your Podfile:
 
-    pod "COUPIES", "~> 1.10.1"
+    pod "COUPIES", "~> 1.10.2"
 
 ### Install manually
 
