@@ -28,6 +28,7 @@
 	NSNumber *gender;
     NSNumber *age;
     NSNumber *pushIntensity;
+    NSNumber *pushIntensityOffer;
     NSString *currency;
     double balance;
     double savedTotal;
@@ -53,6 +54,7 @@
 @property double balance;
 @property double savedTotal;
 @property (copy) NSNumber *pushIntensity;
+@property (copy) NSNumber *pushIntensityOffer;
 @property BOOL pushTokenSent;
 @property (strong) COUPIESPayout *lastPayout;
 
